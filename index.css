@@ -1,0 +1,87 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .1s ease-in;
+  /* border: 1px solid red; */
+}
+html {
+  background: #E5E5E5;
+  margin: auto;
+  max-width: max-content;
+}
+body {
+  background-color: #3B3F45;
+  width:793px;
+  height:507px;
+}
+header {
+  width:100%;
+  background-color: #4A4F56;
+}
+.text_header {
+  font-size: 20px;
+  margin-top:-10px;
+}
+h1,.text_header,.text_footer {
+  text-align: center;
+  color:#FF8984;
+}
+h1 {
+  font-size:30px;
+}
+li:hover {
+  color:#FFFFFF;
+  background-color: white;
+  border:1px solid white;
+}
+ul {
+  text-align: center;
+  margin-top: 20px;
+  color:#FFFFFF;
+}
+ul :active{
+  text-decoration: line-through;
+}
+ul :nth-child(2n+1) {
+  background-color:  #88839E;
+}
+ul :nth-child(2n) {
+  background-color:#7A7593;
+}
+li {
+  width: 535px;
+  height:45px;
+  margin: auto;
+  text-align: left;
+  list-style-type: none; /* Убираем маркеры */
+}
+input {
+  width: 20px;
+  height: 20px;
+  margin-top:5px;
+  margin-left:5px;
+}
+li >span {
+  font-size:15px;
+
+}
+span::before {
+  content: "(";
+}
+span::after {
+  content: ")";
+}
+.text_list_pickles,.text_list_apples,.text_list_oranges,.text_list_plates,.text_list_bentos,.text_list_bottle {
+  font-size:20px;
+}
+footer {
+  height:45px;
+  background-color:#4A4F56; 
+  margin-top:30px;
+  width: 535px;
+  margin-left:127px;
+}
+.text_footer{
+  font-size: 25px;
+}
