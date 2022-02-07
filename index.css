@@ -40,7 +40,7 @@ ul {
   margin-top: 20px;
   color:#FFFFFF;
 }
-ul :active{
+ul input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
 ul :nth-child(2n+1) {
@@ -59,12 +59,11 @@ li {
 input {
   width: 20px;
   height: 20px;
-  margin-top:5px;
+  margin-top:10px;
   margin-left:5px;
 }
-li >span {
+span {
   font-size:15px;
-
 }
 span::before {
   content: "(";
